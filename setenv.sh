@@ -1,3 +1,3 @@
-alias docker_compile=$PWD/docker_compile.sh
-alias docker_make=$PWD/docker_make.sh
-alias docker_exec=$PWD/docker_exec.sh
+alias googletest_compile="$PWD/docker_run.sh g++"
+alias googletest_make="$PWD/docker_run.sh make"
+alias googletest_exec="$PWD/docker_run.sh"
